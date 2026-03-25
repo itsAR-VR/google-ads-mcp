@@ -6,15 +6,22 @@ Recommended companion stack for turning this repo from a raw Google Ads MCP into
 
 ## Core repo skills
 
+### Read-first foundation
 - product-marketing-context
 - mine-search-terms
 - search-term-methodology
-- budget-optimization
 - weekly-review
 - reporting
-- negative-keyword-management
 - campaign-health-check
+- google-ads-audit-framework
+
+### Mutation-safe operations
+- negative-keyword-management
+- budget-optimization
 - bid-management
+- cep-write-operations
+
+### Creative and competition
 - ad-copy-analysis
 - competitor-analysis
 
@@ -72,4 +79,11 @@ These are not shipped as copies in this repo, but they are worth integrating in 
 
 ## Why this structure works
 
-It keeps strategy, analysis, mutation planning, testing, and post-click optimization separate enough to stay sane, while still letting workflows chain together like a proper operator loop.
+It follows the strongest public pattern we found:
+- read-first foundation before write automation
+- separate audit/reporting from mutation execution
+- workflow skills instead of just entity CRUD
+- preview/confirm/post-check safety for writes
+- negative-keyword hygiene treated as a first-class operating loop
+
+That keeps strategy, analysis, mutation planning, testing, and post-click optimization separate enough to stay sane, while still letting workflows chain together like a proper operator loop.

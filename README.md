@@ -120,6 +120,8 @@ Inside `/skills`:
 - `ad-copy-analysis.md`
 - `competitor-analysis.md`
 - `product-marketing-context.md`
+- `google-ads-audit-framework.md`
+- `cep-write-operations.md`
 - `strategy-stack.md`
 
 These skills are structured markdown workflows with:
@@ -130,7 +132,27 @@ These skills are structured markdown workflows with:
 - evaluation criteria
 - output format
 - safety/approval notes
+- CEP write protocol where relevant
 - example GAQL queries
+
+## Public research upgrades folded into this version
+
+Public repo and skill-library scans pushed this repo in four important directions:
+
+- **Read-first core** inspired by public Google Ads MCP baselines
+- **Audit / reporting / mutation separation** instead of one giant blob skill
+- **CEP write safety**: Confirm → Execute → Post-check
+- **Negative keyword hygiene as a first-class workflow**, including future room for conflict cleanup and shared list propagation
+
+Useful public references included:
+- `google-marketing-solutions/google_ads_mcp`
+- `cohnen/mcp-google-ads`
+- `gomarble-ai/google-ads-mcp-server`
+- `AgriciDaniel/claude-ads`
+- `itallstartedwithaidea/google-ads-skills`
+
+The best idea stolen from the public internet, respectfully, is this:
+raw tools are table stakes. The real value is safe workflow packaging.
 
 ## What the skill pack covers
 
@@ -353,6 +375,9 @@ Hard guardrail ideas encoded into the skills:
 - never push high-impact changes without a preview/diff
 - never auto-apply risky negatives
 - avoid repeated Smart Bidding thrash
+- never recommend Broad Match with Manual CPC as a casual default
+- prefer pause over remove for most operational changes
+- new entities should usually launch paused first
 - require reasoning and confidence labels
 - keep an audit trail for recommended and applied actions
 

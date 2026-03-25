@@ -56,12 +56,23 @@ Info examples:
 ## Output format
 
 - health summary scorecard
+- weighted account or campaign health score
 - critical issues
 - warnings
 - info notes
 - likely root causes
 - recommended actions
 - approval tier where relevant
+
+## Suggested scoring model
+
+Use weighted scoring rather than raw issue counts:
+- tracking and measurement integrity: 30%
+- spend control and budget sufficiency: 20%
+- conversion efficiency: 20%
+- query quality and intent alignment: 15%
+- creative and asset health: 10%
+- structural hygiene and recent changes: 5%
 
 ## Safety notes
 

@@ -57,7 +57,9 @@ Use when the user wants to:
 
 - Do not stack major bid changes with major budget changes, large keyword expansion, and RSA rewrites in the same cycle.
 - Use cooldown windows after material bid strategy edits.
+- Protect campaigns in active learning periods from constant meddling.
 - Bias toward observe/no change when data volume is weak.
+- Treat this as a CEP workflow for writes: confirm the exact change, execute only after approval, then post-check the resulting metrics/status.
 
 ## Example GAQL queries
 

@@ -67,8 +67,16 @@ Flag only material deltas by default:
 - biggest risks
 - what changed
 - why it changed
+- severity-rated findings
 - recommended next actions
 - approval queue
+
+## Severity scoring
+
+Each issue should be tagged with:
+- severity: critical / high / medium / low
+- confidence: high / medium / low
+- action type: observe / investigate / recommend / approve / apply
 
 ## Safety notes
 

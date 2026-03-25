@@ -68,6 +68,7 @@ Use when the user wants to:
 - Do not use broad negatives casually.
 - Account for singular/plural and synonym coverage because negatives are stricter than positive keywords.
 - Mutations require explicit approval unless the operator has opted into low-risk safe-apply rules.
+- Follow CEP: confirm exact negatives and scope, execute only after approval, then post-check that no protected terms or key winners were unintentionally blocked.
 
 ## Example GAQL queries
 
