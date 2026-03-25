@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "google-ads": {
+      "command": "node",
+      "args": ["/absolute/path/to/google-ads-mcp/dist/index.js"],
+      "env": {
+        "GOOGLE_ADS_CLIENT_ID": "YOUR_CLIENT_ID",
+        "GOOGLE_ADS_CLIENT_SECRET": "YOUR_CLIENT_SECRET",
+        "GOOGLE_ADS_REFRESH_TOKEN": "YOUR_REFRESH_TOKEN",
+        "GOOGLE_ADS_DEVELOPER_TOKEN": "YOUR_DEVELOPER_TOKEN",
+        "GOOGLE_ADS_CUSTOMER_ID": "1234567890",
+        "GOOGLE_ADS_LOGIN_CUSTOMER_ID": "0987654321"
+      }
+    }
+  }
+}
