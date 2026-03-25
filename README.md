@@ -1,4 +1,4 @@
-# google-ads-mcp
+# google-ads-cowork-OS
 
 Open-source Google Ads MCP server plus a paid-search skill pack.
 
